@@ -1,68 +1,94 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* nav*/
+span
+{
+  color: greenyellow;
+  font-family: cursive;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+#de
+{
+  color: white;
 }
-a:hover {
-  color: #535bf2;
+.navbar > .container-fluid
+{
+  background-color: black;
+  border: 1px darkgreen solid;
+  border-radius: 10px;
 }
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+.navbar-expand-sm .navbar-nav .nav-link
+{
+  color: white;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+#fit
+{
+  color: white;
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
+
+/* body*/
+
+.bg-body-tertiary
+{
+  background-color: black !important;
 }
-button:hover {
-  border-color: #646cff;
+#home
+{
+  
+  height: 1000px;
+  max-width: 100%;
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-image: url('../home.jpg');
+  background-size:contain ;
 }
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+#first
+{
+  color: white;
+  font-size: 64px;
+  font-family: cursive;
+  
+  padding-top: 425px;
+}
+#SecSection
+{
+    background-color: #425924;
+    max-width: 100%;
+}
+#sec
+{
+  color: white;
+  font-size: 32px;
+  font-family: cursive;
+  padding-left: 100px;
+  
+}
+#secO
+{
+  padding-left: 200px;
+  display: inline-flex;
+}
+#secS
+{
+  padding-left: 200px;
+  display: inline-flex;
+}
+#secT
+{
+  display: inline-flex;
+  padding-left: 200px;
+}
+#THSection
+{
+  color: white;
+  font-family: cursive;
+  height: 1450px;
+  max-width:100%;
+  background-image: linear-gradient(to right,#55811b 5%,#000000 95%);
+}
+#ha
+{
+  color: white;
+  font-size: x-large;
+  font-family: cursive;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
