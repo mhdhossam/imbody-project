@@ -12,13 +12,25 @@ import Home from "./pages/Home-Page";
 import Css from './pages/css';
 import Home from './pages/home-page';
 import JS from './pages/JS';*/
-const router = createBrowserRouter([
+const router = createBrowserRouter(
+  [
   {
     path: "/",
   element:<Home/>,
   
   },
-]);
+  {
+    path: "/Home",
+  element:<Home/>,
+  
+  },
+  {
+    path: "/contact us",
+  element:<Home/>,
+  
+  },
+]
+);
 
 
 

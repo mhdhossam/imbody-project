@@ -23,6 +23,15 @@ span
 {
   color: white;
 }
+.offcanvas-body, .offcanvas-header , .offcanvas-header .btn-close
+{
+  background-color: black;
+  color: white;
+}
+.offcanvas-header .btn-close
+{
+  background-color: white;
+}
 
 
 /* body*/
@@ -47,7 +56,7 @@ span
   font-size: 64px;
   font-family: cursive;
   
-  padding-top: 425px;
+  padding-top: 325px;
 }
 #SecSection
 {
