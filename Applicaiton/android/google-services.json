@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "395650047750",
+    "project_id": "fitgenie-project",
+    "storage_bucket": "fitgenie-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395650047750:android:368c27acddf1efb8b50887",
+        "android_client_info": {
+          "package_name": "com.example.fitgenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395650047750-svvb0s0gvk441pa9qvimgcic920tdo50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-YRfxJ5DqqIOOo6ibmU117lhhOZ_GcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395650047750-svvb0s0gvk441pa9qvimgcic920tdo50.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "395650047750-nt068mc3tajg8slpaqpr38mbbj5rdeus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fitgenie"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395650047750:android:ee1b7083fc5602e9b50887",
+        "android_client_info": {
+          "package_name": "com.fitgenie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395650047750-1gkjev2h7thtobsn02c1eneeb1hglkq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fitgenie",
+            "certificate_hash": "a9ec5b55bb524f61f895c87854a1a43c5e407d40"
+          }
+        },
+        {
+          "client_id": "395650047750-svvb0s0gvk441pa9qvimgcic920tdo50.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCp-YRfxJ5DqqIOOo6ibmU117lhhOZ_GcI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395650047750-svvb0s0gvk441pa9qvimgcic920tdo50.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "395650047750-nt068mc3tajg8slpaqpr38mbbj5rdeus.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.fitgenie"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
