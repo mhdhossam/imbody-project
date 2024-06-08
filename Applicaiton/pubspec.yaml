@@ -1,0 +1,47 @@
+name: fitgenie
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  percent_indicator: ^4.2.3
+  carousel_slider: ^4.2.1
+  provider: ^6.1.1
+  flutter_svg: ^2.0.9
+  http: ^1.1.0
+  firebase_core: ^2.25.4
+  firebase_auth: ^4.17.4
+  flutter_widget_from_html: ^0.14.6
+  cached_network_image: ^3.3.1
+  webview_flutter: ^4.7.0
+  flutter_3d_controller: ^1.2.1
+  animate_do: ^3.3.4
+  simple_timer: ^2.0.0
+#  health: ^10.2.0
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/models/
+    - assets/svg/
